@@ -7,8 +7,8 @@ sudo swapon --show
 # Отключаем текущий свап
 sudo swapoff -a
 
-# Добавляем своп на 12 гигов
-sudo fallocate -l 12G /swapfile
+# Добавляем своп на 16 гигов
+sudo fallocate -l 16G /swapfile
 
 # Show storage
 ls -lh /swapfile
